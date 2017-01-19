@@ -1,0 +1,43 @@
+{
+   "sqldb": [
+      {
+         "name": "CreamAndSugar-sqldb",
+         "label": "sqldb",
+         "plan": "sqldb_free",
+         "credentials": {
+            "hostname": "75.126.155.153",
+            "password": "zmrZIE2KtmWq",
+            "port": 50000,
+            "host": "75.126.155.153",
+            "jdbcurl": "jdbc:db2://75.126.155.153:50000/SQLDB",
+            "uri": "db2://user14149:zmrZIE2KtmWq@75.126.155.153:50000/SQLDB",
+            "db": "SQLDB",
+            "username": "user14149"
+         }
+      }
+   ],
+   "concept_insights": [
+      {
+         "name": "Concept Insights CHH",
+         "label": "concept_insights",
+         "plan": "standard",
+         "credentials": {
+            "url": "https://gateway.watsonplatform.net/concept-insights/api",
+            "password": "iW6JzKZL24OB",
+            "username": "1c2c1ef8-d1d1-4eb4-823f-4f1ff25f6623"
+         }
+      }
+   ],
+   "document_conversion": [
+      {
+         "name": "Document Conversion-9u",
+         "label": "document_conversion",
+         "plan": "standard",
+         "credentials": {
+            "url": "https://gateway.watsonplatform.net/document-conversion/api",
+            "password": "LCZxGJFKsGnC",
+            "username": "4412dc3f-2a2f-4552-8abf-8968cf519f19"
+         }
+      }
+   ]
+}
